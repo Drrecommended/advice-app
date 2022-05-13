@@ -1,39 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;800&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: hsl(218, 23%, 16%);
+  background-color: hsl(218, 23%, 16%);
 }
 
 .main {
-    background-color: hsl(217, 19%, 24%);
-    font-family: 'Manrope', sans-serif;
-    margin: 0 auto;
-    margin-top: 3em;
-    border-radius: 10px;
-    max-width: 350px;
+  background-color: hsl(217, 19%, 24%);
+  font-family: 'Manrope', sans-serif;
+  margin: 0 auto;
+  margin-top: 7em;
+  border-radius: 10px;
+  max-width: 350px;
+  position: relative;
+  text-align: center;
+  padding: 2em 2em 5em 2em;
 }
 
 .advice-title {
-    color: hsl(150, 100%, 66%);
-    font-size: 12px;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  color: hsl(150, 100%, 66%);
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 2em;
 }
 
 .advice {
-    color: hsl(193, 38%, 86%);
-    font-size: 24px; 
-    font-weight: 500;
+  color: hsl(193, 38%, 86%);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1em;
 }
 
 .dice-button {
-    background-color: hsl(150, 100%, 66%); 
+  background-color: hsl(150, 100%, 66%);
+  position: absolute;
+  padding: 1em;
+  border-radius: 50%;
+  border-style: none;
+  right: 5px;
 }
 
+.dice-button:hover {
+  cursor: pointer;
+}
+
+.dice-button:hover,
+.dice-button:focus {
+  -webkit-box-shadow: 0px 0px 89px 22px rgba(82, 255, 169, 0.78);
+  -moz-box-shadow: 0px 0px 89px 22px rgba(82, 255, 169, 0.78);
+  box-shadow: 0px 0px 89px 22px rgba(82, 255, 169, 0.78);
+}
