@@ -44,7 +44,9 @@ body {
   padding: 1em;
   border-radius: 50%;
   border-style: none;
-  right: 5px;
+  margin-top: 40px;
+  right: 142px;
+  
 }
 
 .dice-button:hover {
