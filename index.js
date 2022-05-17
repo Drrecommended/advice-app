@@ -18,9 +18,11 @@ async function getData() {
 
 const displayResult = (data) => {
   const adviceTitle = document.querySelector('.advice-title')
+  const advice = document.querySelector('.advice')
   const id = data.slip.id
-  console.log(typeof id)
-  adviceTitle.textContent = id.toString()
+  const content = data.slip.advice
+  adviceTitle.textContent = `advice #${id.toString()}`
+  advice.textContent = `"${content}"`
 }
 
 
