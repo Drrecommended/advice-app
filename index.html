@@ -20,7 +20,17 @@
     <main class="main">
       <h1 class="advice-title">advice #0</h1>
       <p class="advice">"here is some dummy advice take it or leave it"</p>
-      <img class="divider" src="images/pattern-divider-mobile.svg" alt="" />
+      <picture>
+        <source
+          media="(min-width: 520px)"
+          srcset="images/pattern-divider-desktop.svg"
+        />
+        <img
+          class="divider"
+          src="images/pattern-divider-mobile.svg"
+          alt="IfItDoesntMatchAnyMedia"
+        />
+      </picture>
       <button class="dice-button">
         <img src="images/icon-dice.svg" alt="dice" />
       </button>
